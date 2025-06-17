@@ -52,9 +52,6 @@ NAN: 9536
 Correlation between TotalPremium and TotalClaims: 
 Scatter plot shows (describe the pattern, e.g., weak/strong/no relationship).
 
-
-
-
 7. Outlier Detection
 Box plots reveal significant outliers in TotalPremium and TotalClaims.
 
@@ -63,3 +60,22 @@ There are notable outliers in financial variables.
 Gender distribution is (balanced/skewed).
 Some columns have missing data that may need to be addressed.
 There is (weak/strong) correlation between premium and claims.
+
+### Task 2: Data Version Control (DVC)
+
+#### DVC Setup
+- Initialized DVC in the project.
+- Added main data file (MachineLearningRating_v3.txt) to DVC tracking.
+- Configured local DVC remote storage (dvc_storage/).
+- Pushed data to DVC remote for reproducibility and auditability.
+- Committed all DVC-related changes to Git.
+
+#### Benefits
+- Ensures data versioning and reproducibility.
+- Keeps large data files out of Git, improving repo performance.
+- Enables easy collaboration and rollback of data versions.
+
+---
+
+**Next Steps:**  
+- Proceed to hypothesis testing and statistical validation (Task 3).
