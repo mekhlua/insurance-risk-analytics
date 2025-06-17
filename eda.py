@@ -69,3 +69,7 @@ plt.boxplot(df['TotalClaims'].dropna(), vert=False)
 plt.title('Box Plot of TotalClaims')
 plt.xlabel('TotalClaims')
 plt.show()
+
+# Exact counts for Gender
+print("\nGender Counts:")
+print(df['Gender'].value_counts(dropna=False))
